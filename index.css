@@ -1,0 +1,38 @@
+button, input[type="button"], input[type="reset"], input[type="submit"], .button, .entry-content .button {
+    background: #22566b;
+    border-radius: 3px;
+    border: 0;
+    box-shadow: none;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Spinnaker',sans-serif;
+    padding: 16px 24px;
+    text-transform: uppercase;
+    width: auto;
+    font-weight: normal;
+    text-shadow: none;
+    font-size: 14px;
+    line-height: 20px;
+}
+.button-container button {
+    width: 50px;
+    height: 50px;
+    transition: all .3s ease;
+    margin-bottom: 10px;
+}
+.button-container button:hover {
+    opacity: .6;
+}
+.black-button {
+    background: #000;
+}
+.red-button {
+    background: #ed1c24;
+}
+
+.blue-button {
+    background: #03b0d5;
+}
+.yellow-button {
+    background: #ff0;
+}
