@@ -1,6 +1,6 @@
 button, input[type="button"], input[type="reset"], input[type="submit"], .button, .entry-content .button {
     background: #22566b;
-    border-radius: 3px;
+    /* border-radius: 3px; */
     border: 0;
     box-shadow: none;
     color: #fff;
@@ -14,25 +14,35 @@ button, input[type="button"], input[type="reset"], input[type="submit"], .button
     font-size: 14px;
     line-height: 20px;
 }
+.container {
+    margin:auto;
+    max-width:500px;`
+}
 .button-container button {
-    width: 50px;
-    height: 50px;
+    width: 20px;
+    height: 20px;
     transition: all .3s ease;
     margin-bottom: 10px;
 }
 .button-container button:hover {
     opacity: .6;
 }
-.black-button {
-    background: #000;
+.asia-button {
+    width:20px;
+    background-image: url('images/adventure-asia-background-th.jpg');
 }
-.red-button {
-    background: #ed1c24;
+.clouds-button {
+    width:20px;
+    background-image: url('images/adventure-clouds-dawn-th.jpg');
 }
-
-.blue-button {
-    background: #03b0d5;
+.aurora-button {
+    width:20px;
+    background-image: url('images/aurora-borealis-th.jpg');
 }
-.yellow-button {
-    background: #ff0;
+.conifer-button {
+    width:20px;
+    background-image: url('images/clouds-conifer-daylight-th.jpg');
+}
+img#change-image {
+    width: 500px;
 }
